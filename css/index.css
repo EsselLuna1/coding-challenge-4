@@ -82,10 +82,10 @@ article
 .articleContent {
   position: relative;
   width: 429px;
-  padding: 23px 34px 17px 30px;
+  padding: 23px 41px 31px 24px;
 }
 .text h2 {
-  margin: 8px 0 10px;
+  margin: 8px 0 12px;
   font-size: 21px;
   letter-spacing: -0.1px;
 }
@@ -131,13 +131,14 @@ article-footer
 }
 .avatar {
   width: 55px;
+  margin: -3px 0 0;
 }
 .avatar img {
   width: 40px;
   border-radius: 100%;
 }
 .infoName {
-  margin: 0px;
+  margin: 4px 0 0;
   padding-top: 0px;
   color: hsl(217, 19%, 35%);
   font-weight: 700;
@@ -154,7 +155,7 @@ share
   display: flex;
   width: 30px;
   height: 30px;
-  margin: 6px 0 0;
+  margin: 8px 0 0;
   border-radius: 100%;
   background: hsl(210, 46%, 95%);
   cursor: pointer;
