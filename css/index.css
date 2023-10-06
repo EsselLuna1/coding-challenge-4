@@ -98,7 +98,7 @@ article
   .article {
     flex-flow: wrap;
     max-width: 100%;
-    height: 504.45px;
+    height: auto;
   }
   .articleImage {
     width: 100%;
@@ -107,7 +107,7 @@ article
   }
   .articleContent {
     width: 100%;
-    padding: 26px 34px 24px 30px;
+    padding: 26px 34px 8px 30px;
   }
   .text h2 {
     font-size: 16.6px;
@@ -147,6 +147,11 @@ article-footer
   padding-bottom: 10px;
   color: hsl(212, 23%, 69%);
   line-height: 20px;
+}
+@media screen and (max-width: 768px) {
+  .author {
+    align-items: center;
+  }
 }
 /*----------------
 share
@@ -206,7 +211,7 @@ share
 @media screen and (max-width: 768px) {
   .share {
     width: 100%;
-    top: 64%;
+    top: 69%;
     left: 50%;
     background: hsl(217, 19%, 35%);
     border-radius: 0 0 10px 10px;
@@ -224,5 +229,6 @@ share
   }
   .shareIcon {
     z-index: 1;
+    margin: 0;
   }
 }
