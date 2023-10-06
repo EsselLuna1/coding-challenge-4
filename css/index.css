@@ -70,7 +70,7 @@ article
   border-radius: 10px;
   background-color: #fff;
   justify-content: space-between;
-  box-shadow: 10px;
+  box-shadow: 0 14px 31px 0 rgba(0, 0, 0, 0.1);
 }
 .articleImage {
   width: 286px;
